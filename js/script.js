@@ -3,7 +3,7 @@ let doi = "Shakiraaa";
 
 let footer = document.getElementById("credit");
 footer.innerHTML = doi;
-footer.href = "https://www.instagram.com/galihhhhr/";
+footer.href = "https://www.instagram.com/shakiirapa/";
 
 function time() {
   var d = new Date();
