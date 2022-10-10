@@ -35,16 +35,16 @@ function selesai() {
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire({
     title: 'Hai Shakiraaa!',
-    html: `Selamat ${time()}, Apa kabar hari inii?`,
+    html: `Selamat ${time()}, Aku mau bilang sesuatu ni sama kamuu hehehe`,
     timer: 2500,
     timerProgressBar: true,
     showConfirmButton: false,
   }).then((result) => {
     if (result.dismiss === Swal.DismissReason.timer) {
-      Swal.fire('Semoga baik-baik saja, jangan lupa makan dann makan buahh').then((result) => {
+      Swal.fire('Karna kita udah deket kurang lebih 2 bulan').then((result) => {
         Swal.fire({
           title: ' ',
-          html: `Jaga kesehatan yaa`,
+          html: `Jadi aku coba buat beraniin bilang ini ke kamuu`,
           timer: 2000,
           timerProgressBar: true,
           showConfirmButton: false,
@@ -52,29 +52,29 @@ document.querySelector(".tombol").addEventListener('click', function () {
           if (result.dismiss === Swal.DismissReason.timer) {
             Swal.fire({
               title: ' ',
-              html: `Semangat jalanin harinya`,
+              html: `Jadi aku mau bilang kalau`,
               timer: 2000,
               timerProgressBar: true,
               showConfirmButton: false,
             }).then((result) => {
               if (result.dismiss === Swal.DismissReason.timer) {
-                Swal.fire('Pokoknya jangan sering telat makannn!').then((result) => {
+                Swal.fire('Hayooo nunggu yaa??').then((result) => {
                   Swal.fire(
-                    'Jangan keseringan tidur larut malemm!',
+                    'WLEEEEE',
                     '',
                     'error'
                   ).then((result) => {
                     Swal.fire(
-                      'Jangan telat makan!',
+                      'hehhehehe jangan marah atuhh',
                       '',
                       'error'
                     ).then((result) => {
-                      Swal.fire('Gaboleh sakittt!!!',
+                      Swal.fire('Serem soalnyaa kalo marahhh',
                                 '',
                                 'error'
                       ).then((result) => {
                         Swal.fire({
-                          title: 'Oh iya aku mau ngomong',
+                          title: 'Yaudah dee langsung ke intinyaa aja yaa',
                           text: 'Boleh gak?',
                           showDenyButton: true,
                           confirmButtonText: `Boleh`,
@@ -83,13 +83,13 @@ document.querySelector(".tombol").addEventListener('click', function () {
                           /* Read more about isConfirmed, isDenied below */
                           if (result.isConfirmed) {
                             Swal.fire({
-                              title: 'emot kura-kura heheheheee',
+                              title: 'Aku mau kamu jadi pacar aku, kamu mau ga?',
                               icon: '',
                               input: '',
                               showCancelButton: false,
                             }).then((result) => {
                               Swal.fire('wkwkw', 'kaburrrr', 'success').then((result) => {
-                                Swal.fire("Bye bye").then((result) => {
+                                Swal.fire("Jawab nya bales chatt di WA aja ya, kalo iya pake emote kura-kura, kalau engga pake emote buayaa").then((result) => {
                                   selesai()
                                 });
                               })
